@@ -1,9 +1,12 @@
 
-@media screen and (max-width:1800px){
+/*@media screen and (max-width:1800px){
     #muscle-map{
         display: none;
     }
 }
+*/
+
+
 .btn-groups{
     display: flex;
     justify-content:center;
@@ -70,186 +73,226 @@
 
 
 .whole-body{
-    right: 150px;
     position: relative;
 
 } 
 
 .front-body{
+    
     position: absolute;
-    top: 1px;
+    top: -200px;
+   
+
 }
 
-
-
+#background{
+    width: 85%;
+}
+#muscle-map{
+    position: relative;
+}
 
 
 #malefigures{
     display: block;
 }
 #traps-a{
+    width:50px;
     position: absolute;
-    top: 452px;
-    left: 415px;
+    top: 440px;
+    left: 414px;
 }
 #traps-b{
+    width:50px;
     position: absolute;
-    top: 452px;
-    left: 575px;
+    top: 440px;
+    left: 532px;
 }
 
 #shoulders-a{
+    width:110px;
     position:absolute;
-    top: 490px;
-    left: 318px;
+    top: 470px;
+    left: 340px;
 }
 
 #shoulders-b{
+    width: 110px;
     position:absolute;
-    top: 490px;
-    left: 600px;
+    top: 470px;
+    left: 550px;
 }
 
 #pecs{
+    width: 240px;
     position:absolute;
-    top: 497px;
-    left: 360px;
+    top: 475px;
+    left: 378px;
 }
 
 #biceps-a{
     position:absolute;
-    top: 590px;
-    left: 275px;
+    top: 543px;
+    left: 315px;
+    width: 80px;
+
 }
 #biceps-b{
     position:absolute;
-    top: 590px;
-    left: 671px;
+    top: 543px;
+    left: 603px;
+    width: 80px;
 }
 #forearm-a{
     position:absolute;
-    top: 673px;
-    left: 175px;
+    top: 605px;
+    left: 243px;
+    width: 100px;
 }
 #forearm-b{
     position:absolute;
-    top: 673px;
-    left: 735px;
+    top: 605px;
+    left: 653px;
+    width: 100px;
 }
 #obliques{
     position:absolute;
-    top: 626px;
-    left: 462px;
+    top: 568px;
+    left: 447px;
+    width: 100px;
 }
 #quads-a{
     position:absolute;
-    top: 850px;
-    left: 378px;
+    top: 740px;
+    left: 390px;
+    width: 80px;
 }
 #quads-b{
     position:absolute;
-    top: 850px;
-    left: 563px;
+    top: 740px;
+    left: 527px;
+    width: 80px;
 }
 #calves-a{
     position:absolute;
-    top: 1255px;
-    left: 370px;
+    top: 1030px;
+    left: 380px;
+    width: 70px;
 }
 #calves-b{
     position:absolute;
-    top: 1255px;
-    left: 597px;
+    top: 1030px;
+    left: 548px;
+    width: 70px;
 }
 #obliques-a{
     position:absolute;
-    top:600px;
-   left:382px
+    top:550px;
+   left:391px;
+   width: 60px;
 }
 #obliques-b{
     position:absolute;
-    top:600px;
-   left:590px
+    top:550px;
+   left:545px;
+   width: 60px;
 }
 
 
 #back-traps-a{
     position:absolute;
-    top: 458px;
-    right: 387px;
+    top: 245px;
+    right: 677px;
+    width: 160px;
 }
 #back-traps-b{
     position:absolute;
-    top: 510px;
-    right: 425px;
+    top: 285px;
+    right: 708px;
+    width: 98px;
 }
 #back-shoulders-a{
     position:absolute;
-    top: 485px;
-    right: 570px;
+    top: 265px;
+    left: 990px;
+    width: 100px;
 }
 #back-shoulders-b{
     position:absolute;
-    top: 485px;
-    right: 290px;
+    top: 265px;
+    right: 600px;
+    width: 100px;
 }
 #triceps-a{
     position:absolute;
-    top: 565px;
-    right: 640px;
+    top: 327px;
+    right: 868px;
+    width: 80px;
 }
 #triceps-b{
     position:absolute;
-    top: 565px;
-    right: 235px;
+    top: 327px;
+    right: 568px;
+    width: 80px;
 }
 #back-lats-a{
     position:absolute;
-    top: 507px;
-    right: 514px;
+    top: 282px;
+    right: 771px;
+    width: 96px;
 }
 #back-lats-b{
     position:absolute;
-    top: 507px;
-    right: 343px;
+    top: 282px;
+    right: 647px;
+    width: 96px;
 }
 #back-lower{
     position:absolute;
-    top: 645px;
-    right: 432px;
+    top: 380px;
+    right: 710px;
+    width: 95px;
 }
 #back-forearms-a{
     position:absolute;
-    top: 680px;
-    right: 702px;
+    top: 410px;
+    right: 910px;
+    width: 110px;
 }
 #back-forearms-b{
     position:absolute;
-    top: 680px;
-    right: 143px;
+    top: 410px;
+    right: 493px;
+    width: 110px;
 }
 #back-glutes{
     position:absolute;
-    top: 823px;
-    right: 385px;
+    top: 514px;
+    right: 675px;
+    width: 165px;
 }
 #back-hamstrings-a{
     position:absolute;
-    top: 840px;
-    right: 512px;
+    top: 520px;
+    right: 767px;
+    width: 100px;
 }
 #back-hamstrings-b{
     position:absolute;
-    top: 840px;
-    right: 345px;
+    top: 520px;
+    right: 647px;
+    width: 100px;
+
 }
 #back-calves-a{
     position:absolute;
-    top:1272px;
-    right:563px;
+    top:843px;
+    right:808px;
+    width: 70px;
 }
 #back-calves-b{
     position:absolute;
-    top:1272px;
-    right:330px;
+    top:843px;
+    right:638px;
+    width: 70px;
 }
