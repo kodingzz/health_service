@@ -28,31 +28,37 @@
     border-color: none;
 }
 
-.community-firstrow{
+.community-btns{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.community-btns button{
+    margin: 0px 3px;
+    
+}
+
 
 .community-free-title,
 .community-free-search,
 .community-free-list{
     display: flex;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 
 .community-free-title h3{
     font-size: 35px;
     color: #333333;
-    font-weight: 400;
+    font-weight: 600;
  
 }
 
 .community-free-search{
-    padding: 20px 0;
+    padding: 30px 0;
     background-color: rgba(0, 0, 0, 0.2);
+
 }
 
 
@@ -63,10 +69,46 @@
 
 .community-free-table  {
     font-size: 20px;
-    width: 600px;
+    width: 1600px;
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
 }
 .community-free-table th{
     text-align: center;
 }
+
+.btn-search select {
+    height: 40px;
+    width: 100px;
+}
+
+
+.community-free-table a{
+    font-size: 20px;
+}
+
+.community-free-table tbody{
+    position: relative;
+    top:3px;
+    left:74px;
+}
+tbody a{
+    position: relative;
+    left:-70px;
+
+  
+}
+
+.community-info td{
+    position: relative;
+    left:30px;
+
+
+}
+.community-info td:first-child{
+    position: relative;
+    left:-25px;
+
+
+}
+
