@@ -1,0 +1,43 @@
+.screen-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  
+}
+
+.navbars {
+    position: relative;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.signin-up{
+    display: flex;
+    margin-right: 50px;
+}
+.more-functions{
+    display: flex;
+    justify-content: center;
+}
+
+
+.title{
+    padding: 5px;
+    margin-left: 17px;
+}
+.more-functions{
+
+}
+
+.change-level{
+    display: flex;
+    margin-right: 500px;
+
+
+  
+}
+.change-level a{
+    font-size: 15px;
+    margin: 0px 10px;
+}
