@@ -1,0 +1,50 @@
+
+  .size{
+    width: 280px;
+    height: 890px;
+
+    position: fixed;
+    background-color: yellowgreen;
+
+  }
+
+
+
+  .buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 60px; 
+  }
+
+  .time-workout-kinds div{
+    display: flex;
+    justify-content:center;
+ 
+
+}
+.time-workout-kinds{
+  margin-top:30px;
+  margin-bottom: 120px;
+
+
+}
+
+.time-workout-kinds button{
+
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.time-workout-kinds p{
+  margin-top: 20px;
+}
+
+.container span{
+  font-size: 30px;
+  background-color:tomato;
+  border-radius: 30%;
+}
+
+.text-white{
+  color: white;
+}
