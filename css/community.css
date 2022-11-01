@@ -108,9 +108,9 @@ tbody a{
 
 .write{
     display: flex;
-    justify-content: center;
+    justify-content: right;
     position: relative;
-    left: 32%;
+
     top: 10px;
 
 }
@@ -124,6 +124,15 @@ tbody a{
 
     width: 1500px;
     height:40px;
+}
+.write-date{
+    display: flex;
+    justify-content: center;
+   
+}
+.write-date input{
+    width: 1500px;
+
 }
 .write-title{
     display: flex;
@@ -142,6 +151,14 @@ tbody a{
 .write-info input{
     width: 1500px;
     height: 500px;
+}
+.write-inbody{
+    display: flex;
+    justify-content: center;
+   
+}
+.write-inbody input{
+    width: 1500px;
 }
 .write-submit{
     display: flex;

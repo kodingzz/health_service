@@ -56,20 +56,19 @@
       
       <div class="flex-shrink-0 p-3  size" style="width: 280px;">
         <a  class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
-        
           <span class="fs-5 fw-semibold">루틴</span>
         </a>
         <ul class="list-unstyled ps-0">
           <li class="mb-1">
-        
-              <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="false">
-                시간별운동
-              </button>
-              
-            <div class="collapse show" id="home-collapse">
+            <a>
+                <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                    시간별운동
+                  </button>
+            </a>
+             <!--
+  <div class="collapse show" id="home-collapse">
               <ul class="btn-toggle-nav  fw-normal pb-1 small">
-                <li><a href="#time-15m" class="link-dark rounded">15분루틴</a></li>
-                <li><a href="#time-30m" class="link-dark rounded">30분루틴</a></li>
+                <li><a href="#time-30m" class="link-dark rounded">0.5시간루틴</a></li>
                 <li><a href="#time-1" class="link-dark rounded">1시간루틴</a></li>
                 <li><a href="#time-90m" class="link-dark rounded">1.5시간루틴</a></li>
                 <li><a href="#time-2" class="link-dark rounded">2시간루틴</a></li>
@@ -78,37 +77,38 @@
 
               </ul>
             </div>
+             -->
+          
           </li>
+
           <li class="mb-1">
             <a href="routine-muscle.html">
-              <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
-                부위별운동
-              </button>
-            </a>
-            
-            <div class="collapse" id="dashboard-collapse">
-              <ul class="btn-toggle-nav  fw-normal pb-1 small">
-                <li><a href="#" class="link-dark rounded">가슴루틴</a></li>
-                <li><a href="#" class="link-dark rounded">등루틴</a></li>
-                <li><a href="#" class="link-dark rounded">이두루틴</a></li>
-                <li><a href="#" class="link-dark rounded">삼두루틴</a></li>
-                <li><a href="#" class="link-dark rounded">어깨루틴</a></li>
-                <li><a href="#" class="link-dark rounded">복부루틴</a></li>
-                <li><a href="#" class="link-dark rounded">하체루틴</a></li>
-
-
-              </ul>
-            </div>
-          </li>
-         
-          <li class="mb-1">
-            <a href="routine-division.html">
               <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
-                분할별운동
+                부위별운동
               </button>
             </a>
            
             <div class="collapse" id="orders-collapse">
+              <ul class="btn-toggle-nav  fw-normal pb-1 small">
+                <li><a href="#" class="link-dark rounded">1주일루틴</a></li>
+                <li><a href="#" class="link-dark rounded">2주일루틴</a></li>
+                <li><a href="#" class="link-dark rounded">1달루틴</a></li>
+                <li><a href="#" class="link-dark rounded">3달루틴</a></li>
+                <li><a href="#" class="link-dark rounded">6달루틴</a></li>
+
+              </ul>
+            </div>
+          </li>
+        
+    
+          <li class="mb-1">
+          
+              <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+                분할별운동
+              </button>
+    
+            
+            <div class="collapse" id="dashboard-collapse">
               <ul class="btn-toggle-nav  fw-normal pb-1 small">
                 <li><a href="#" class="link-dark rounded">무분할루틴</a></li>
                 <li><a href="#" class="link-dark rounded">1분할루틴</a></li>
@@ -119,6 +119,7 @@
               </ul>
             </div>
           </li>
+
           <li class="border-top my-3"></li>
           <li class="mb-1">
             <a href="routine-myroutine.html">
@@ -136,75 +137,8 @@
        
 
           <div class="container mg">
-            <div id="time-15m">
-              <h2 class="time-title">15분</h2>
-              <span>A</span>
-              <div class="time-workout-kinds">   
-                <div>
-                  <button type="button" class="btn btn-success">0~10분</button>
-                  <p>
-                    장비 위에 팔을 고정한 상태로 몸을 잡습니다.</p>
-                </div>
-                <div>
-                  <button type="button" class="btn btn-success">10~20분</button>
-                  <p>
-                    앞으로 몸을 기울이면서 천천히 몸을 낮추고 팔꿈치를 벌리십시오.</p>
-                </div>
-                <div>
-                  <button type="button" class="btn btn-success">20~30분</button>
-                  <p>
-                    팔이 잠길 때까지 막대 위로 몸을 들어 올리십시오.</p>
-                </div>
-        
-            </div>
-  
-            <span>B</span>
-            <div class="time-workout-kinds">   
-              <div>
-                <button type="button" class="btn btn-success">0~10분</button>
-                <p>
-                  장비 위에 팔을 고정한 상태로 몸을 잡습니다.</p>
-              </div>
-              <div>
-                <button type="button" class="btn btn-success">10~20분</button>
-                <p>
-                  앞으로 몸을 기울이면서 천천히 몸을 낮추고 팔꿈치를 벌리십시오.</p>
-              </div>
-              <div>
-                <button type="button" class="btn btn-success">20~30분</button>
-                <p>
-                  팔이 잠길 때까지 막대 위로 몸을 들어 올리십시오.</p>
-              </div>
-      
-          </div>
-  
-          <span>C</span>
-            <div class="time-workout-kinds">   
-              <div>
-                <button type="button" class="btn btn-success">0~10분</button>
-                <p>
-                  장비 위에 팔을 고정한 상태로 몸을 잡습니다.</p>
-              </div>
-              <div>
-                <button type="button" class="btn btn-success">10~20분</button>
-                <p>
-                  앞으로 몸을 기울이면서 천천히 몸을 낮추고 팔꿈치를 벌리십시오.</p>
-              </div>
-              <div>
-                <button type="button" class="btn btn-success">20~30분</button>
-                <p>
-                  팔이 잠길 때까지 막대 위로 몸을 들어 올리십시오.</p>
-              </div>
-      
-          </div>
-              
-              
-            </div>
-
-
-
           <div id="time-30m">
-            <h2 class="time-title">30분</h2>
+            <h2 class="time-title">0.5시간</h2>
             <span>A</span>
             <div class="time-workout-kinds">   
               <div>

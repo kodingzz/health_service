@@ -26,9 +26,6 @@
     padding: 5px;
     margin-left: 17px;
 }
-.more-functions{
-
-}
 
 .change-level{
     display: flex;
@@ -38,8 +35,10 @@
   
 }
 .change-level a{
-    font-size: 15px;
-    margin: 0px 10px;
+    font-size: 18px;
+    margin: 0px 14px;
+    color: black;
+    
 }
 
 a{

@@ -39,12 +39,23 @@
   margin-top: 20px;
 }
 
-.container span{
-  font-size: 30px;
-  background-color:tomato;
-  border-radius: 30%;
-}
+
 
 .text-white{
   color: white;
+}
+
+.time-title{
+  margin-top: 20px;
+}
+#time-15m,
+#time-30m,
+#time-1,
+#time-90m,
+#time-2,
+#time-150m{
+  position: relative;
+  left: 200px;
+  top: 40px;
+  padding: 10px;
 }

@@ -13,7 +13,9 @@
 .workout-title h3{
     font-weight: 600;
     font-size: 35px;
-    background-color:green;
+    background-color: rgba(0,0,0,0.05);
+    width: ;
+
 }
 
 .workout-video{
@@ -27,13 +29,17 @@
 .workout-methods {
     margin-top:30px;
     margin-bottom: 120px;
+    background-color: rgba(0,0,0,0.05);
+    margin-left:275px;
+    margin-right:325px;
+
  
 
 }
 .workout-methods div{
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content:left;
  
 
 }
@@ -46,3 +52,7 @@
     margin-top: 20px;
 }
 
+
+.muscle-area h2{
+    font-weight: 600;
+}
