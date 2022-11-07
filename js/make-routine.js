@@ -1,7 +1,7 @@
 
 
 function showMakeRoutine() {
-     window.open("make-routine.html", "make-routine-page", "width=700, height=800, left=500, top=200");
+     window.open("make-routine.html", "make-routine-page", "width=700, height=500, left=500, top=200");
     }
 
 
