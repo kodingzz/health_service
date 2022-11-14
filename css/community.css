@@ -137,6 +137,7 @@ tbody a{
 .write-title{
     display: flex;
     justify-content: center;
+    margin-top: 20px;
    
 }
 .write-title input{
@@ -148,7 +149,7 @@ tbody a{
     justify-content: center;
    
 }
-.write-info input{
+.write-info textarea{
     width: 1500px;
     height: 500px;
 }
@@ -163,7 +164,7 @@ tbody a{
 .write-submit{
     display: flex;
     justify-content: right;
-    margin-top: 10px;
+    margin-top: -20px;
   
 }
 .dd{
@@ -176,7 +177,30 @@ tbody a{
 .write-file{
 
 position: relative;
-bottom: 40px;
+bottom: -10px;
 left:3px;
 }
+ 
 
+
+/* community-view */
+.view-title{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+    font-size: 50px;
+}
+
+.view-info{
+    margin: 30px 0px;
+    font-size: 26px;
+    font-weight: 500;
+    width: 80%;
+}
+.view-a{
+    font-size: 18px;
+    margin: 0px 5px;
+}
+.bg{
+    background-color: rgba(0, 0, 0, 0.1);
+}
