@@ -41,8 +41,8 @@
         </div>
 
         <div class="signin-up">
-          <a class="signin navbar-brand" href="master-main.html">
-            <span>로그아웃</span>
+          <a class="signin navbar-brand" href="mypage.html">
+            <span>마이페이지</span>
           </a>
           <a class="signup navbar-brand" href="signup.html">
             <span>회원가입</span>
@@ -54,23 +54,27 @@
 
 
       <div class="mypage-main">
+        <h1 class="mypage-title">내 정보</h1>
         <div class="main-first-row">
-            <div>
-                <i class="fas fa-user fa-7x"></i>
-                <h3 class="main-name">묘누묘누</h3>
-            </div>
-        
-            <div class="main-tear">
-                <i class="fa-solid fa-trophy fa-6x"></i>
-            </div>
+          <div class="mypage-info"> 
+            <img src="picture/silver.png" width="150px"/>
+            <span>내 닉네임</span>
+          </div>
+          
+           
         </div>
         <div class="main-second-row">
             <div class="big-three">
-              <div>
-                <span class="my-big-three" >내 3대중량: </span>
-                <span>219</span>
+
+              <div class="big-three-title">
+                <h3 >내 3대중량 </h3>
                 <a href="community-challenge.html" class="navbar-brand">3대도전하기!</a>
               </div>
+                <div class="big-three-total">
+                  <span>3대 총합: </span>
+                  <span>219</span>
+                </div>
+      
               
                 <div class="benchpress">
                     <span>벤치프레스: </span>
@@ -92,13 +96,6 @@
 
         </div>
 
-        <div class="main-third-row">
-            <div class="main-correct">
-                <a href="" class="navbar-brand"><h3>내 정보수정</h3></a>
-            </div>
-
-        </div>
-
         <div class="main-fourth-row">
           <div class="change-thema">
             <span>앱 테마변경</span>
@@ -107,36 +104,39 @@
           <div class="colors">
             <div class="white-thema"></div>
             <div class="gray-thema"></div>
-            <div class="red-thema">
-              <i class="fas fa-lock fa-lg"></i>
-            </div>
-            <div class="green-thema">
-              <i class="fas fa-lock fa-lg"></i>
-            </div>
-            <div class="purple-thema">
-              <i class="fas fa-lock fa-lg"></i>
-            </div>
-            <div class="yellow-thema">
-              <i class="fas fa-lock fa-lg"></i>
-            </div>
-            <div class="blue-thema">
+            <div class="yellow-thema"></div>
+            <div class="orange-thema"></div>
+            <div class="green-thema"></div>
+            <div class="blue-thema"></div>
+            <div class="purple-thema"></div>
+            <div class="black-thema"></div>
+
+
+           
+         
+
+           
+    
+            <div class="fluorescent-yellow-thema">
               <i class="fas fa-lock fa-lg"></i>
             </div>
           </div>
 
         </div>
 
-        
-        <div class="main-fifth-row">
-          <div class="graph-show">
-            <span>그래프</span>
-          </div>
+        <div class="main-third-row">
+              <a href="mypage-correct.html" class="navbar-brand"><h4>내 정보수정</h4></a>
+              <a href="" class="navbar-brand"><h4>로그아웃</h4></a>
+
         </div>
 
+       
+      
+  
         <div class="container">
           <canvas id="myChart"></canvas>
         </div>
-
+  
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
@@ -146,6 +146,8 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+  
+   
 
       
       </div>

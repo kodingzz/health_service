@@ -20,7 +20,8 @@ header {
     height: 100%;
     flex-grow: 1;
   }
-  .fa-calendar-check {
+  .fa-calendar-check,
+  .fa-chart-line {
     color: #fa709a; 
     margin-right: 2%;
     vertical-align: middle;
@@ -225,7 +226,7 @@ header > h1 > span {
   .myInbody{
     padding: 0px 30px;
   }
-  .myInbody-mass{
+  .myInbody-mass {
     margin: 5px 0px;
   }
   .myInbody-mass input {
@@ -238,4 +239,18 @@ header > h1 > span {
     outline-style: none;
 
   }
- 
+
+
+
+  .icon-graph {
+    color:  black;
+    justify-content: right;
+
+  }
+  .space{
+    margin-bottom: 50px;
+  }
+
+  .weight-record{
+    text-align: center;
+  }

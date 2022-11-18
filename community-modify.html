@@ -71,39 +71,17 @@
 -->
 
 
-<!-- /board/writepro -->
-  <form th:action="" method = "post">
+<form th:action="@{/board/update/{id}(id = ${board.id})}" method="post">
     <div class="write-title">
       <input class="search" name="title" type="text" th:value="${board.title}" placeholder="제목."/>
     </div>
     <div class="write-info">
     <textarea class="search" name="content" type="text" th:text="${board.content}"  placeholder="내용."></textarea>
     </div>  
-    <div class="write-file">
-      <input type="file" name="file">
-    </div>
   
-
-<!--
-<input class="search dd" type="search"/>
-<div class="write-file">
-  <input type="file" name="bf_file[]" id="bf_file_1" title="파일첨부 1 : 용량 1,048,576 바이트 이하만 업로드 가능" class="frm_file ">
-</div>
-
-<input class="search dd" type="search"/>
-<div class="write-file">
-  <input type="file" name="bf_file[]" id="bf_file_1" title="파일첨부 1 : 용량 1,048,576 바이트 이하만 업로드 가능" class="frm_file ">
-</div>
-
-<input class="search dd" type="search"/>
-<div class="write-file">
-  <input type="file" name="bf_file[]" id="bf_file_1" title="파일첨부 1 : 용량 1,048,576 바이트 이하만 업로드 가능" class="frm_file ">
-</div>
--->
-
-<div class="write-submit">x
-<button  type="submit" class="btn btn-primary">수정</button>
-</div>
+    <div class="write-submit">
+      <button  type="submit" class="btn btn-primary">수정</button>
+    </div>
   
 
 </form>

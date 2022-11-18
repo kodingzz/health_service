@@ -17,7 +17,9 @@
         <p class="view-info" th:text="${board.content}">내용이 들어갈 부분입니다.</p>
         <a class="view-a" th:href="@{${board.filepath}}">영상 보기</a>
         <a class="view-a" th:href="@{/board/delete(id=${board.id})}">글 삭제</a>
-        <a class="view-a" href="community-modify.html">글 수정</a>
+        <a class="view-a" th:href="@{/board/modify/{id}(id = ${board.id})}">글 수정</a>
+
+
         <!--th:href="@{/board/modify/{id}(id = ${board.id})}"-->
     </div>
    
