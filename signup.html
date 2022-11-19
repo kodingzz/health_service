@@ -58,22 +58,23 @@
         <h1>득근득근💪</h1>
 
       </div>
+      <form action="/member/save" method="post">
     <div class="main-signup ">
-     
+    
         <div class="signup-wrap" >
        
             <div class="padding">
                 <div class="user-id">
                     <h3>아이디</h3>
                     <span class="signup-input">
-                        <input id="signup-id" type="text" placeholder="webdnqw0903"></input>
+                        <input id="signup-id" type="text" placeholder="webdnqw0903" name="username"></input>
                     </span>
                 </div>
     
                 <div class="user-password">
                     <h3>비밀번호</h3>
                     <span class="signup-input">
-                        <input id="signup-password" type="text" placeholder="ddededeo018182"></input>
+                        <input id="signup-password" type="text" placeholder="ddededeo018182" name="password"></input>
                         <span class="pw-lock"></span>
                     </span>
                 </div>
@@ -81,7 +82,7 @@
                 <div class="user-password-re nickname">
                     <h3>닉네임</h3>
                     <span class="signup-input">
-                        <input id="signup-password-re" type="text" placeholder="누누"></input>
+                        <input id="signup-password-re" type="text" placeholder="누누" name="nickname"></input>
                         <span class="pw-lock"></span>
                     </span>
                 </div>
@@ -97,15 +98,21 @@
                 </div>
                 <div class="user-sex">
                     <h3>성별</h3>
-                    <span class="signup-input">
+                    <!--
+                        <span class="signup-input">
                         <select id="signup-sex" class="selectbox" name="sex" onchange="">
                             <option value="man">남자</option>
                             <option value="woman">여자</option>
                             <option value="no">선택 안함</option>
                         </select>
                     </span>
+                    -->
+                    <span class="signup-input">
+                      <input  id="signup-sex" type="text" name="sex">
+                    </span>
                 </div>
-                <div>
+                <!--
+ <div>
                     <span class="user-choice user-rate">
                         <h3>등급</h3>
                     </span>
@@ -113,9 +120,12 @@
                         <input id="signup-email" type="text" placeholder="골드(265) "></input>
                     </span>
                 </div>
+                -->
+               
                 
                 <div class="signup-btn-wrap">
-                    <button id="signup-btn">가입하기</button>
+                  <input  id="signup-btn" type="submit" value="가입하기">
+                    <!-- <button id="signup-btn">가입하기</button> -->
                 </div>
     
                 <div class="form-signup-signin">
@@ -124,9 +134,8 @@
             </div>
            
         </div>
-        
-           
     </div>
+  </form>
 
     <script src="js/signup.js"></script>
 
