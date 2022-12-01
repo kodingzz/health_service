@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
 </head>
 <body>
-    <nav class="navbars navbar-light bg-light screen-header">
+    <nav class="navbars navbar-light bg-lights screen-header">
         <div class="title">
           <a class="navbar-brand" href="master-main.html">
             득근득근💪
@@ -52,13 +52,14 @@
 
       </nav>
 
+    
 
       <div class="mypage-main">
         <h1 class="mypage-title">내 정보</h1>
         <div class="main-first-row">
           <div class="mypage-info"> 
             <img src="picture/silver.png" width="150px"/>
-            <span>내 닉네임</span>
+            <!-- <span >내 닉네임</span> -->
           </div>
           
            
@@ -72,23 +73,23 @@
               </div>
                 <div class="big-three-total">
                   <span>3대 총합: </span>
-                  <span>219</span>
+                  <span>0</span>
                 </div>
       
               
                 <div class="benchpress">
                     <span>벤치프레스: </span>
-                    <span>73</span>
+                    <span>0</span>
 
                 </div>
                 <div class="squat">
                     <span>스쿼트: </span>
-                    <span>73</span>
+                    <span>0</span>
 
                 </div>
                 <div class="deadlift">
                     <span>데드리프트: </span>
-                    <span>73</span>
+                    <span>0</span>
 
                 </div>
              
@@ -98,26 +99,35 @@
 
         <div class="main-fourth-row">
           <div class="change-thema">
-            <span>앱 테마변경</span>
+            <span>웹 테마변경</span>
 
           </div>
           <div class="colors">
-            <div class="white-thema"></div>
-            <div class="gray-thema"></div>
-            <div class="yellow-thema"></div>
-            <div class="orange-thema"></div>
-            <div class="green-thema"></div>
-            <div class="blue-thema"></div>
-            <div class="purple-thema"></div>
-            <div class="black-thema"></div>
-
-
-           
-         
-
-           
-    
-            <div class="fluorescent-yellow-thema">
+            <div class="white-thema">
+              <input type="button" class="firstcolorbtn" />
+            </div>
+            <div class="gray-thema">
+              <input type="button" class="secondcolorbtn" />
+            </div>
+            <div class="yellow-thema">
+              <input type="button" class="thirdcolorbtn" />
+            </div>
+            <div class="orange-thema">
+              <input type="button" class="fourthcolorbtn" />
+            </div>
+            <div class="green-thema">
+              <input type="button" class="fifthcolorbtn" />
+            </div>
+            <div class="blue-thema">
+              <input type="button" class="sixthcolorbtn" />
+            </div>
+            <div class="purple-thema">
+              <input type="button" class="seventhcolorbtn" />
+            </div>
+            <div class="black-thema">
+              <input type="button" class="eighthcolorbtn" />
+            </div>
+            <div class="fluorescent-yellow-thema ninethcolorbtn">
               <i class="fas fa-lock fa-lg"></i>
             </div>
           </div>
@@ -125,9 +135,10 @@
         </div>
 
         <div class="main-third-row">
-              <a href="mypage-correct.html" class="navbar-brand"><h4>내 정보수정</h4></a>
+              <a href="mypage-correct.html" class="navbar-brand"><h4>내 정보 수정</h4></a>
               <a href="" class="navbar-brand"><h4>로그아웃</h4></a>
-
+              <a class="navbar-brand" href="/member/update">내 정보 수정</a>
+              <a class="navbar-brand logout" href="/member/logout">로그아웃</a>
         </div>
 
        
@@ -163,6 +174,6 @@
       crossorigin="anonymous"
     ></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-      <script src="js/graph.js"></script>
+      <script src="js/mypage.js"></script>
 </body>
 </html>

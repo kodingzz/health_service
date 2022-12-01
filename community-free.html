@@ -120,7 +120,7 @@
                         <th scope="col">순번</th>
                         <th scope="col">제목</th>
                         <!-- <th scope="col">닉네임</th> -->
-                        <!-- <th scope="col">등록일</th> -->
+                        <th scope="col">등록일</th>
                         <!-- <th scope="col">조회수</th> -->
                       </tr>
                 </thead>
@@ -133,6 +133,8 @@
                               <a th:text= "${board.title}" href="community-view.html">제목입니다.</a>
                                <!--th:href="@{/board/view(id=${board.id})} -->
                             </td>
+
+                            <td class=" current-date"></td>
             
                       </tr>
                 </tbody>

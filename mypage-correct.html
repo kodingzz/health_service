@@ -57,67 +57,82 @@
         <h1>내 정보 변경</h1>
 
       </div>
-      <div class="main-signup ">
+      <form action="/member/update" method="post">
+        <input type="hidden" th:value="${updateMember.id}" name="id"><br>
+
+        <div class="main-signup ">
      
-        <div class="signup-wrap" >
-       
-            <div class="padding">
-                <div class="user-id">
-                    <h3>아이디</h3>
-                    <span class="signup-input">
-  
-                        <input id="signup-id" type="text" placeholder="webdnqw0903" disabled></input>
-                    </span>
-                </div>
-    
-                <div class="user-password">
-                    <h3>비밀번호</h3>
-                    <span class="signup-input">
-                        <input id="signup-password" type="text" placeholder="ddededeo018182"></input>
-                        <span class="pw-lock"></span>
-                    </span>
-                </div>
-    
-                <div class="user-password-re nickname">
-                    <h3>닉네임</h3>
-                    <span class="signup-input">
-                        <input id="signup-password-re" type="text" placeholder="누누"></input>
-                        <span class="pw-lock"></span>
-                    </span>
-                </div>
-    
-    
-    
-                <div class="user-name user-age">
-                    <h3>나이</h3>
-                    <span class="signup-input">
-                        <input id="signup-name" type="text" placeholder="79"></input>
-                    </span>
-    
-                </div>
-                <div class="user-sex">
-                    <h3>성별</h3>
-                    <span class="signup-input">
-                        <select id="signup-sex" class="selectbox" name="sex" onchange="">
-                            <option value="man">남자</option>
-                            <option value="woman">여자</option>
-                            <option value="no">선택 안함</option>
-                        </select>
-                    </span>
-                </div>
+          <div class="signup-wrap" >
+         
+              <div class="padding">
+                  <div class="user-id">
+                      <h3>아이디</h3>
+                      <span class="signup-input">
+                        <input id="signup-id"type="text" th:value="${updateMember.username}" name="username" readonly> <br>
+                          <!-- <input id="signup-id" type="text" placeholder="webdnqw0903" disabled></input> -->
+                      </span>
+                  </div>
+      
+                  <div class="user-password">
+                      <h3>비밀번호</h3>
+                      <span class="signup-input">
+                        <input  id="signup-password"type="text" th:value="${updateMember.password}" name="password"> <br>
+
+                          <!-- <input id="signup-password" type="text" placeholder="ddededeo018182"></input> -->
+                          <span class="pw-lock"></span>
+                      </span>
+                  </div>
+      
+                  <div class="user-password-re nickname">
+                      <h3>닉네임</h3>
+                      <span class="signup-input">
+                        <input id="signup-password-re"  type="text" th:value="${updateMember.nickname}" name="nickname"> <br>
+
+                          <!-- <input id="signup-password-re" type="text" placeholder="누누"></input> -->
+                          <span class="pw-lock"></span>
+                      </span>
+                  </div>
+      
+      
+      
+                  <div class="user-name user-age">
+                      <h3>나이</h3>
+                      <span class="signup-input">
+                        <input  id="signup-name" type="text" th:value="${updateMember.userage}" name="userage"> <br>
+                      </span>
+      
+                  </div>
+                  <div class="user-sex">
+                      <h3>성별</h3>
+                      <span class="signup-input">
+                        <!--
+  <select id="signup-sex" class="selectbox" name="sex" onchange="">
+                              <option value="man">남자</option>
+                              <option value="woman">여자</option>
+                              <option value="no">선택 안함</option>
+                          </select>
+                        -->
+
+                         <input  id="signup-sex" type="text" th:value="${updateMember.sex}" name="sex"> <br>
+
+                      </span>
+                  </div>
+               
+                  
+                  <div class="signup-btn-wrap">
+                    <input  id="signup-btn" type="submit" value="정보 변경">
+
+                      <!-- <button id="signup-btn">변경하기</button> -->
+                  </div>
+      
+              </div>
              
-                
-                <div class="signup-btn-wrap">
-                    <button id="signup-btn">변경하기</button>
-                </div>
+          </div>
+          
+             
+      </div>
+      </form>
     
-           
-            </div>
-           
-        </div>
-        
-           
-    </div>
 
     <script src="js/signup.js"></script>
 
