@@ -12,22 +12,22 @@
 <body >
 <nav class="navbars navbar-light bg-light screen-header">
     <div class="title">
-        <a class="navbar-brand">
+        <a class="navbar-brand" >
             <img src="/picture/capstone2img.png" width=120px/>
         </a>
     </div>
 
     <div class="more-functions">
-        <a class="signin navbar-brand" href="/member/signin">
+        <a class="signin navbar-brand" href="/board/list">
             <span>커뮤니티</span>
         </a>
-        <a class="signup navbar-brand" href="/member/signin">
+        <a class="signup navbar-brand" href="routine-time">
             <span>루틴</span>
         </a>
-        <a class="community navbar-brand" href="/member/signin">
+        <a class="community navbar-brand" href="rank-whole">
             <span>랭킹</span>
         </a>
-        <a class="community navbar-brand" href="/member/signin">
+        <a class="community navbar-brand" href="record">
             <span>기록</span>
         </a>
     </div>
@@ -42,16 +42,24 @@
 
     </div>
 
+<!--    <div class="signin-up">-->
+<!--        <a class="signin navbar-brand" href="/member/signin">-->
+<!--            <span>로그인</span>-->
+<!--        </a>-->
+<!--        <a class="signup navbar-brand" href="/member/signup">-->
+<!--            <span>회원가입</span>-->
+<!--        </a>-->
+
+<!--    </div>-->
     <div class="signin-up">
-        <a class="signin navbar-brand" href="/member/signin">
-            <span>로그인</span>
+
+
+        <a class="signup navbar-brand" href="mypage">
+            <span>마이페이지</span>
         </a>
-        <a class="signup navbar-brand" href="/member/signup">
-            <span>회원가입</span>
-        </a>
+        <h2 th:text="${session.loginNickname}"></h2>
 
     </div>
-
 </nav>
 
 
@@ -69,12 +77,10 @@
             더보기
         </button>
         <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton2">
-          
             <li><a class="dropdown-items band" href="chest_band_beginner">밴드</a></li>
             <li><a class="dropdown-items stretch" href="chest_stretch_beginner">스트레칭</a></li>
             <li><a class="dropdown-items cable" href="chest_cable_beginner">케이블</a></li>
             <li><a class="dropdown-items kettlebell " href="chest_kettlebell_beginner">케틀벨</a></li>
-
             <li><a class="dropdown-items close" href="#">닫기❌</a></li>
         </ul>
     </div>
@@ -87,7 +93,8 @@
     <div class="first-workout">
         <div class="workout-title">
             <h3>
-            <span class="mw-headline" id="Barbell-Bench-Press">
+<!--            <span class="mw-headline" id="Barbell-Bench-Press">-->
+                <span class="mw-headline" id="Barbell-Bench-Press">
            인클라인 덤벨 프레스
             </span>
             </h3>

@@ -12,22 +12,22 @@
 <body >
 <nav class="navbars navbar-light bg-light screen-header">
     <div class="title">
-        <a class="navbar-brand">
+        <a class="navbar-brand" >
             <img src="/picture/capstone2img.png" width=120px/>
         </a>
     </div>
 
     <div class="more-functions">
-        <a class="signin navbar-brand" href="/member/signin">
+        <a class="signin navbar-brand" href="/board/list">
             <span>커뮤니티</span>
         </a>
-        <a class="signup navbar-brand" href="/member/signin">
+        <a class="signup navbar-brand" href="routine-time">
             <span>루틴</span>
         </a>
-        <a class="community navbar-brand" href="/member/signin">
+        <a class="community navbar-brand" href="rank-whole">
             <span>랭킹</span>
         </a>
-        <a class="community navbar-brand" href="/member/signin">
+        <a class="community navbar-brand" href="record">
             <span>기록</span>
         </a>
     </div>
@@ -42,16 +42,24 @@
 
     </div>
 
+<!--    <div class="signin-up">-->
+<!--        <a class="signin navbar-brand" href="/member/signin">-->
+<!--            <span>로그인</span>-->
+<!--        </a>-->
+<!--        <a class="signup navbar-brand" href="/member/signup">-->
+<!--            <span>회원가입</span>-->
+<!--        </a>-->
+
+<!--    </div>-->
     <div class="signin-up">
-        <a class="signin navbar-brand" href="/member/signin">
-            <span>로그인</span>
+
+
+        <a class="signup navbar-brand" href="mypage">
+            <span>마이페이지</span>
         </a>
-        <a class="signup navbar-brand" href="/member/signup">
-            <span>회원가입</span>
-        </a>
+        <h2 th:text="${session.loginNickname}"></h2>
 
     </div>
-
 </nav>
 
 
@@ -59,22 +67,20 @@
     <div class="muscle-area">
         <h2>가슴</h2>
     </div>
-    <a href="chest_dumbell_beginner"><button type="button" class="button btn-outline-primary dumbell active">덤벨</button></a>
+    <a href="chest_dumbell_beginner"><button type="button" class="button btn-outline-primary dumbell ">덤벨</button></a>
     <a href="chest_bodyweight_beginner"><button type="button" class="button btn-outline-primary  bodyweight">맨몸</button></a>
     <a href="chest_machine_beginner"><button type="button" class="button btn-outline-primary machine">머신</button></a>
     <a href="chest_barbell_beginner"><button type="button" class="button btn-outline-primary barbell">바벨</button></a>
 
     <div class="health-more">
         <button class="button  btn-outline-primary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
-            더보기
+            케이블
         </button>
         <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton2">
-          
             <li><a class="dropdown-items band" href="chest_band_beginner">밴드</a></li>
             <li><a class="dropdown-items stretch" href="chest_stretch_beginner">스트레칭</a></li>
             <li><a class="dropdown-items cable" href="chest_cable_beginner">케이블</a></li>
             <li><a class="dropdown-items kettlebell " href="chest_kettlebell_beginner">케틀벨</a></li>
-
             <li><a class="dropdown-items close" href="#">닫기❌</a></li>
         </ul>
     </div>
@@ -88,23 +94,23 @@
         <div class="workout-title">
             <h3>
             <span class="mw-headline" id="Barbell-Bench-Press">
-           인클라인 덤벨 프레스
+                케이블 펙 플라이
             </span>
             </h3>
         </div>
         <div class="workout-video">
-            <img src="https://www.musclewiki.com/media/uploads/male-dumbbell-inclined-bench-press-front.gif"/>
-            <img src= "https://www.musclewiki.com/media/uploads/male-dumbbell-inclined-bench-press-side.gif"/>
+            <img src="https://www.musclewiki.com/media/uploads/cable-male-pecfly-front.gif"/>
+            <img src= "https://www.musclewiki.com/media/uploads/cable-male-pecfly-side.gif"/>
 
         </div>
 
 
         <ol class="steps-list" style="margin: 4rem 0 1rem;">
             <li>
-                벤치를 30도에서 45도 사이에 놓습니다.</li>
-            <li>바닥에 발을 대고 벤치에 평평하게 눕습니다.</li>
-            <li>덤벨을 가슴 중앙까지 내립니다.</li>
-            <li>팔꿈치가 잠길 때까지 덤벨을 천천히 조절하십시오.</li>
+                핸들 부착물 세트를 기계 바닥까지 사용하십시오.</li>
+            <li>양쪽 핸들을 가슴으로 가져오고 케이블 크로스오버의 중앙에 있는지 확인합니다.</li>
+            <li>몇 걸음 앞으로 걸어갑니다. 그런 다음 무게를 앞으로 누릅니다. 거기에서 팔꿈치는 고정된 위치에 유지하면서 어깨는 수평으로 외전 및 내전되어야 합니다.</li>
+           
         </ol>
 
 
@@ -114,53 +120,29 @@
         <div class="workout-title">
             <h3>
             <span class="mw-headline" id="Barbell-Bench-Press">
-            덤벨 체스트 플라이
+                케이블 체스트프레스
             </span>
             </h3>
         </div>
         <div class="workout-video">
-            <img src="https://www.musclewiki.com/media/uploads/male-dumbbell-chest-flyes-front.gif"/>
-            <img src= "https://www.musclewiki.com/media/uploads/male-dumbbell-chest-flyes-side.gif"/>
+            <img src="https://www.musclewiki.com/media/uploads/cable-male-chestpress-front.gif"/>
+            <img src= "https://www.musclewiki.com/media/uploads/cable-male-chestpress-side.gif"/>
 
         </div>
 
 
         <ol class="steps-list" style="margin: 4rem 0 1rem;">
             <li>
-                벤치를 30도에서 45도 사이에 놓습니다.</li>
-            <li>가슴 위에 덤벨을 모으고 팔꿈치를 약간 구부린 상태에서 운동을 시작하십시오.</li>
-            <li>동시에 무게를 양쪽으로 내립니다.</li>
-            <li>웨이트가 벤치와 평행이 되면 멈춘 다음 팔을 시작 위치로 올립니다.</li>
+                손잡이 부착물을 사용하십시오. 케이블은 어깨 높이로 설정해야 합니다.</li>
+            <li>양쪽 핸들을 가슴으로 가져오고 케이블 크로스오버의 중앙에 있는지 확인합니다.</li>
+            <li>몇 걸음 앞으로 걸어갑니다. 그런 다음 무게를 앞으로 누릅니다.</li>
+            <li> 거기에서 어깨와 팔꿈치를 동시에 구부리고 펴야 합니다.</li>
         </ol>
 
 
     </div>
 
-    <div class="first-workout">
-        <div class="workout-title">
-            <h3>
-            <span class="mw-headline" id="Barbell-Bench-Press">
-            덤벨 벤치 프레스
-            </span>
-            </h3>
-        </div>
-        <div class="workout-video">
-            <img src="https://www.musclewiki.com/media/uploads/male-dumbbell-bench-press-front.gif"/>
-            <img src= "https://www.musclewiki.com/media/uploads/male-dumbbell-bench-press-side.gif"/>
-
-        </div>
-
-
-        <ol class="steps-list" style="margin: 4rem 0 1rem;">
-            <li>
-                바닥에 발을 대고 벤치에 평평하게 눕습니다. 팔이 곧게 펴질 때까지 덤벨을 들어올립니다.</li>
-            <li>덤벨을 가슴 중앙까지 내린다.</li>
-            <li>팔꿈치가 잠길 때까지 덤벨을 들어 올리십시오.</li>
-
-        </ol>
-
-
-    </div>
+   
 
 
 
