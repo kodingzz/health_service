@@ -64,7 +64,16 @@ svg:not(:root) {
     color: #ebebeb;
     transition: color 25ms ease-in-out;
 }
+.body-map__muscle2 {
+    transition: color 25ms ease-in-out;
+}
 .body-map__muscle:hover {
+    color:ff9090;
+    transition: color 25ms ease-in-out;
+    cursor: pointer;
+}
+
+.body-map__muscle2:hover {
     color:ff9090;
     transition: color 25ms ease-in-out;
     cursor: pointer;
