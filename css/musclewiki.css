@@ -74,7 +74,7 @@ svg:not(:root) {
 }
 
 .body-map__muscle2:hover {
-    color:ff9090;
+    color:cc0000;
     transition: color 25ms ease-in-out;
     cursor: pointer;
 }

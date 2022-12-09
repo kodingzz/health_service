@@ -11,41 +11,17 @@
 
 
 
-#chest_routine,
-#lats_routine,
-#glutes_routine,
-#traps-middle_routine,
-#lowerback_routine,
-#hamstrings_routine,
-#quads_routine,
-#abdominals_routine,
-#obliques_routine,
-#triceps_routine,
-#traps_routine,
-#shoulders_routine,
-#biceps_routine,
-#forearms_routine,
-#calves_routine{
+.xxx{
   position: relative;
-  left:150px;
+  left:140px;
 
 }
 
-#chest_routine div,
-#lats_routine div,
-#glutes_routine div,
-#traps-middle_routine div,
-#lowerback_routine div,
-#hamstrings_routine div,
-#quads_routine div,
-#abdominals_routine div,
-#obliques_routine div,
-#triceps_routine div,
-#traps_routine div,
-#shoulders_routine div,
-#biceps_routine div,
-#forearms_routine div,
-#calves_routine div{
-  padding: 10px;
+.routine_name{
+  font-size: 50px;
+  font-weight: 600;
+}
 
+.zz{
+  z-index: 9999;
 }

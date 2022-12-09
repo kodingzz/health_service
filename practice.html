@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1 style = "color:#090; text-align:center;">GeeksforGeeks</h1>
+
+ 
+ 
+  
+ 
+
+
+
+
+<script >
+   const data= `[
+ {
+  "id_1": 1,
+  "Column2": "초보자를 위한 가슴 루틴",
+  "exercise_0": "밴드 푸시업",
+  "num_0": "12회~15회",
+  "time": 60,
+  "part": "가슴",
+  "image1_0": "https:\/\/www.musclewiki.com\/media\/uploads\/band-male-pushup-side.gif",
+  "image2_0": "https:\/\/www.musclewiki.com\/media\/uploads\/band-male-pushup-front.gif",
+  "step_0": "1. 허리 중앙에 밴드를 감습니다. 밴드의 끝은 엄지와 검지 사이의 손 주위에 있어야 합니다.@2. 이 운동은 경험 수준에 따라 무릎이나 발끝에서 할 수 있습니다.@3. 상완이 옆에 있을 때까지 팔꿈치를 부러뜨리는 것으로 시작합니다. 그런 다음 팔꿈치를 다시 위쪽 위치로 확장합니다."
+ },
+ {
+  "id_1": 2,
+  "Column2": "초보자를 위한 가슴 루틴",
+  "exercise_0": "밴드 푸시업",
+  "num_0": "12회~15회",
+  "time": 60,
+  "part": "가슴",
+  "image1_0": "https:\/\/www.musclewiki.com\/media\/uploads\/band-male-pushup-side.gif",
+  "image2_0": "https:\/\/www.musclewiki.com\/media\/uploads\/band-male-pushup-front.gif",
+  "step_0": "1. 허리 중앙에 밴드를 감습니다. 밴드의 끝은 엄지와 검지 사이의 손 주위에 있어야 합니다.@2. 이 운동은 경험 수준에 따라 무릎이나 발끝에서 할 수 있습니다.@3. 상완이 옆에 있을 때까지 팔꿈치를 부러뜨리는 것으로 시작합니다. 그런 다음 팔꿈치를 다시 위쪽 위치로 확장합니다."
+ },
+ {
+  "id_1": 3,
+  "Column2": "초보자를 위한 가슴 루틴",
+  "exercise_0": "밴드 푸시업",
+  "num_0": "12회~15회",
+  "time": 60,
+  "part": "가슴",
+  "image1_0": "https:\/\/www.musclewiki.com\/media\/uploads\/band-male-pushup-side.gif",
+  "image2_0": "https:\/\/www.musclewiki.com\/media\/uploads\/band-male-pushup-front.gif",
+  "step_0": "1. 허리 중앙에 밴드를 감습니다. 밴드의 끝은 엄지와 검지 사이의 손 주위에 있어야 합니다.@2. 이 운동은 경험 수준에 따라 무릎이나 발끝에서 할 수 있습니다.@3. 상완이 옆에 있을 때까지 팔꿈치를 부러뜨리는 것으로 시작합니다. 그런 다음 팔꿈치를 다시 위쪽 위치로 확장합니다."
+ },
+ {
+  "id_1": 4,
+  "Column2": "초보자를 위한 가슴 루틴",
+  "exercise_0": "밴드 푸시업",
+  "num_0": "12회~15회",
+  "time": 60,
+  "part": "가슴",
+  "image1_0": "https:\/\/www.musclewiki.com\/media\/uploads\/band-male-pushup-side.gif",
+  "image2_0": "https:\/\/www.musclewiki.com\/media\/uploads\/band-male-pushup-front.gif",
+  "step_0": "1. 허리 중앙에 밴드를 감습니다. 밴드의 끝은 엄지와 검지 사이의 손 주위에 있어야 합니다.@2. 이 운동은 경험 수준에 따라 무릎이나 발끝에서 할 수 있습니다.@3. 상완이 옆에 있을 때까지 팔꿈치를 부러뜨리는 것으로 시작합니다. 그런 다음 팔꿈치를 다시 위쪽 위치로 확장합니다."
+ },
+ {
+  "id_1": 5,
+  "Column2": "초보자를 위한 가슴 루틴",
+  "exercise_0": "인클라인 푸시업",
+  "num_0": "12회~15회",
+  "time": 60,
+  "part": "가슴",
+  "image1_0": "https:\/\/www.musclewiki.com\/media\/uploads\/bodyweight-male-incline-pushup-side.gif",
+  "image2_0": "https:\/\/www.musclewiki.com\/media\/uploads\/bodyweight-male-incline-pushup-front.gif",
+  "step_0": "1. 벤치를 마주보고 서십시오.@2. 어깨 너비보다 약간 넓게 벤치 또는 플랫폼의 가장자리에 손을 놓습니다.@3. 가슴이 벤치에 거의 닿을 때까지 천천히 몸을 내립니다.@4. 팔이 뻗을 때까지 몸을 밀어 올립니다."
+ },
+ {
+  "id_1": 6,
+  "Column2": "초보자를 위한 가슴 루틴",
+  "exercise_0": "인클라인 푸시업",
+  "num_0": "12회~15회",
+  "time": 60,
+  "part": "가슴",
+  "image1_0": "https:\/\/www.musclewiki.com\/media\/uploads\/bodyweight-male-incline-pushup-side.gif",
+  "image2_0": "https:\/\/www.musclewiki.com\/media\/uploads\/bodyweight-male-incline-pushup-front.gif",
+  "step_0": "1. 벤치를 마주보고 서십시오.@2. 어깨 너비보다 약간 넓게 벤치 또는 플랫폼의 가장자리에 손을 놓습니다.@3. 가슴이 벤치에 거의 닿을 때까지 천천히 몸을 내립니다.@4. 팔이 뻗을 때까지 몸을 밀어 올립니다."
+ },
+ {
+  "id_1": 7,
+  "Column2": "초보자를 위한 가슴 루틴",
+  "exercise_0": "인클라인 푸시업",
+  "num_0": "12회~15회",
+  "time": 60,
+  "part": "가슴",
+  "image1_0": "https:\/\/www.musclewiki.com\/media\/uploads\/bodyweight-male-incline-pushup-side.gif",
+  "image2_0": "https:\/\/www.musclewiki.com\/media\/uploads\/bodyweight-male-incline-pushup-front.gif",
+  "step_0": "1. 벤치를 마주보고 서십시오.@2. 어깨 너비보다 약간 넓게 벤치 또는 플랫폼의 가장자리에 손을 놓습니다.@3. 가슴이 벤치에 거의 닿을 때까지 천천히 몸을 내립니다.@4. 팔이 뻗을 때까지 몸을 밀어 올립니다."
+ },
+ {
+  "id_1": 8,
+  "Column2": "초보자를 위한 가슴 루틴",
+  "exercise_0": "인클라인 푸시업",
+  "num_0": "12회~15회",
+  "time": 60,
+  "part": "가슴",
+  "image1_0": "https:\/\/www.musclewiki.com\/media\/uploads\/bodyweight-male-incline-pushup-side.gif",
+  "image2_0": "https:\/\/www.musclewiki.com\/media\/uploads\/bodyweight-male-incline-pushup-front.gif",
+  "step_0": "1. 벤치를 마주보고 서십시오.@2. 어깨 너비보다 약간 넓게 벤치 또는 플랫폼의 가장자리에 손을 놓습니다.@3. 가슴이 벤치에 거의 닿을 때까지 천천히 몸을 내립니다.@4. 팔이 뻗을 때까지 몸을 밀어 올립니다."
+ },
+ {
+  "id_1": 9,
+  "Column2": "초보자를 위한 가슴 루틴",
+  "exercise_0": "디클라인 푸시업",
+  "num_0": "12회~15회",
+  "time": 60,
+  "part": "가슴",
+  "image1_0": "https:\/\/www.musclewiki.com\/media\/uploads\/bodyweight-male-feet-elevated-push-up-front.gif",
+  "image2_0": "https:\/\/www.musclewiki.com\/media\/uploads\/bodyweight-male-feet-elevated-push-up-side.gif",
+  "step_0": "1. 벤치를 사용하여 발을 높이십시오.@2. 손은 어깨 너비보다 약간 넓게 벌립니다.@3. 가슴이 거의 바닥에 닿을 때까지 천천히 몸을 내립니다.@4. 팔꿈치가 거의 잠길 때까지 몸을 들어 올리십시오."
+ },
+ {
+  "id_1": 10,
+  "Column2": "초보자를 위한 가슴 루틴",
+  "exercise_0": "디클라인 푸시업",
+  "num_0": "12회~15회",
+  "time": 60,
+  "part": "가슴",
+  "image1_0": "https:\/\/www.musclewiki.com\/media\/uploads\/bodyweight-male-feet-elevated-push-up-front.gif",
+  "image2_0": "https:\/\/www.musclewiki.com\/media\/uploads\/bodyweight-male-feet-elevated-push-up-side.gif",
+  "step_0": "1. 벤치를 사용하여 발을 높이십시오.@2. 손은 어깨 너비보다 약간 넓게 벌립니다.@3. 가슴이 거의 바닥에 닿을 때까지 천천히 몸을 내립니다.@4. 팔꿈치가 거의 잠길 때까지 몸을 들어 올리십시오."
+ },
+ {
+  "id_1": 11,
+  "Column2": "초보자를 위한 가슴 루틴",
+  "exercise_0": "디클라인 푸시업",
+  "num_0": "12회~15회",
+  "time": 60,
+  "part": "가슴",
+  "image1_0": "https:\/\/www.musclewiki.com\/media\/uploads\/bodyweight-male-feet-elevated-push-up-front.gif",
+  "image2_0": "https:\/\/www.musclewiki.com\/media\/uploads\/bodyweight-male-feet-elevated-push-up-side.gif",
+  "step_0": "1. 벤치를 사용하여 발을 높이십시오.@2. 손은 어깨 너비보다 약간 넓게 벌립니다.@3. 가슴이 거의 바닥에 닿을 때까지 천천히 몸을 내립니다.@4. 팔꿈치가 거의 잠길 때까지 몸을 들어 올리십시오."
+ },
+ {
+  "id_1": 12,
+  "Column2": "초보자를 위한 가슴 루틴",
+  "exercise_0": "디클라인 푸시업",
+  "num_0": "12회~15회",
+  "time": 60,
+  "part": "가슴",
+  "image1_0": "https:\/\/www.musclewiki.com\/media\/uploads\/bodyweight-male-feet-elevated-push-up-front.gif",
+  "image2_0": "https:\/\/www.musclewiki.com\/media\/uploads\/bodyweight-male-feet-elevated-push-up-side.gif",
+  "step_0": "1. 벤치를 사용하여 발을 높이십시오.@2. 손은 어깨 너비보다 약간 넓게 벌립니다.@3. 가슴이 거의 바닥에 닿을 때까지 천천히 몸을 내립니다.@4. 팔꿈치가 거의 잠길 때까지 몸을 들어 올리십시오."
+ },
+ {
+  "id_1": 13,
+  "Column2": "초보자를 위한 가슴 루틴",
+  "exercise_0": "벤치 체스트 딥스",
+  "num_0": "12회~15회",
+  "time": 60,
+  "part": "가슴",
+  "image1_0": "https:\/\/www.musclewiki.com\/media\/uploads\/male-bodyweight-bench-chest-dips-side.gif",
+  "image2_0": "https:\/\/www.musclewiki.com\/media\/uploads\/male-bodyweight-bench-chest-dips-front.gif",
+  "step_0": "1. 손으로 벤치의 가장자리를 잡고 발과 다리를 똑바로 유지하십시오.@2. 몸을 똑바로 내립니다.@3. 시작점까지 천천히 뒤로 누르십시오."
+ },
+ {
+  "id_1": 14,
+  "Column2": "초보자를 위한 가슴 루틴",
+  "exercise_0": "벤치 체스트 딥스",
+  "num_0": "12회~15회",
+  "time": 60,
+  "part": "가슴",
+  "image1_0": "https:\/\/www.musclewiki.com\/media\/uploads\/male-bodyweight-bench-chest-dips-side.gif",
+  "image2_0": "https:\/\/www.musclewiki.com\/media\/uploads\/male-bodyweight-bench-chest-dips-front.gif",
+  "step_0": "1. 손으로 벤치의 가장자리를 잡고 발과 다리를 똑바로 유지하십시오.@2. 몸을 똑바로 내립니다.@3. 시작점까지 천천히 뒤로 누르십시오."
+ },
+ {
+  "id_1": 15,
+  "Column2": "초보자를 위한 가슴 루틴",
+  "exercise_0": "벤치 체스트 딥스",
+  "num_0": "12회~15회",
+  "time": 60,
+  "part": "가슴",
+  "image1_0": "https:\/\/www.musclewiki.com\/media\/uploads\/male-bodyweight-bench-chest-dips-side.gif",
+  "image2_0": "https:\/\/www.musclewiki.com\/media\/uploads\/male-bodyweight-bench-chest-dips-front.gif",
+  "step_0": "1. 손으로 벤치의 가장자리를 잡고 발과 다리를 똑바로 유지하십시오.@2. 몸을 똑바로 내립니다.@3. 시작점까지 천천히 뒤로 누르십시오."
+ },
+ {
+  "id_1": 16,
+  "Column2": "초보자를 위한 가슴 루틴",
+  "exercise_0": "벤치 체스트 딥스",
+  "num_0": "12회~15회",
+  "time": 60,
+  "part": "가슴",
+  "image1_0": "https:\/\/www.musclewiki.com\/media\/uploads\/male-bodyweight-bench-chest-dips-side.gif",
+  "image2_0": "https:\/\/www.musclewiki.com\/media\/uploads\/male-bodyweight-bench-chest-dips-front.gif",
+  "step_0": "1. 손으로 벤치의 가장자리를 잡고 발과 다리를 똑바로 유지하십시오.@2. 몸을 똑바로 내립니다.@3. 시작점까지 천천히 뒤로 누르십시오."
+ },
+ {
+  "id_1": 17,
+  "Column2": "가슴루틴A",
+  "exercise_0": "바벨 벤치 프레스",
+  "num_0": "12회~15회",
+  "time": 60,
+  "part": "가슴",
+  "image1_0": "https:\/\/www.musclewiki.com\/media\/uploads\/male-barbell-bench-press-side_giVNk12.gif",
+  "image2_0": "https:\/\/www.musclewiki.com\/media\/uploads\/male-barbell-bench-press-front_C2G7O8r.gif",
+  "step_0": "1. 바닥에 발을 대고 벤치에 평평하게 눕습니다. 곧은 팔로 바의 랙을 풉니다.@2. 바를 가슴 중앙까지 내립니다.@3. 팔꿈치가 잠길 때까지 바를 올립니다."
+ },
+ {
+  "id_1": 18,
+  "Column2": "가슴루틴A",
+  "exercise_0": "바벨 벤치 프레스",
+  "num_0": "12회~15회",
+  "time": 60,
+  "part": "가슴",
+  "image1_0": "https:\/\/www.musclewiki.com\/media\/uploads\/male-barbell-bench-press-side_giVNk12.gif",
+  "image2_0": "https:\/\/www.musclewiki.com\/media\/uploads\/male-barbell-bench-press-front_C2G7O8r.gif",
+  "step_0": "1. 바닥에 발을 대고 벤치에 평평하게 눕습니다. 곧은 팔로 바의 랙을 풉니다.@2. 바를 가슴 중앙까지 내립니다.@3. 팔꿈치가 잠길 때까지 바를 올립니다."
+ },
+ {
+  "id_1": 19,
+  "Column2": "가슴루틴A",
+  "exercise_0": "바벨 벤치 프레스",
+  "num_0": "12회~15회",
+  "time": 60,
+  "part": "가슴",
+  "image1_0": "https:\/\/www.musclewiki.com\/media\/uploads\/male-barbell-bench-press-side_giVNk12.gif",
+  "image2_0": "https:\/\/www.musclewiki.com\/media\/uploads\/male-barbell-bench-press-front_C2G7O8r.gif",
+  "step_0": "1. 바닥에 발을 대고 벤치에 평평하게 눕습니다. 곧은 팔로 바의 랙을 풉니다.@2. 바를 가슴 중앙까지 내립니다.@3. 팔꿈치가 잠길 때까지 바를 올립니다."
+ },
+ {
+  "id_1": 20,
+  "Column2": "가슴루틴A",
+  "exercise_0": "바벨 벤치 프레스",
+  "num_0": "12회~15회",
+  "time": 60,
+  "part": "가슴",
+  "image1_0": "https:\/\/www.musclewiki.com\/media\/uploads\/male-barbell-bench-press-side_giVNk12.gif",
+  "image2_0": "https:\/\/www.musclewiki.com\/media\/uploads\/male-barbell-bench-press-front_C2G7O8r.gif",
+  "step_0": "1. 바닥에 발을 대고 벤치에 평평하게 눕습니다. 곧은 팔로 바의 랙을 풉니다.@2. 바를 가슴 중앙까지 내립니다.@3. 팔꿈치가 잠길 때까지 바를 올립니다."
+ },
+ {
+  "id_1": 21,
+  "Column2": "가슴루틴A",
+  "exercise_0": "바벨 벤치 프레스",
+  "num_0": "12회~15회",
+  "time": 60,
+  "part": "가슴",
+  "image1_0": "https:\/\/www.musclewiki.com\/media\/uploads\/male-barbell-bench-press-side_giVNk12.gif",
+  "image2_0": "https:\/\/www.musclewiki.com\/media\/uploads\/male-barbell-bench-press-front_C2G7O8r.gif",
+  "step_0": "1. 바닥에 발을 대고 벤치에 평평하게 눕습니다. 곧은 팔로 바의 랙을 풉니다.@2. 바를 가슴 중앙까지 내립니다.@3. 팔꿈치가 잠길 때까지 바를 올립니다."
+ },
+ {
+  "id_1": 22,
+  "Column2": "가슴루틴A",
+  "exercise_0": "인클라인 바벨 벤치 프레스",
+  "num_0": "12회~15회",
+  "time": 60,
+  "part": "가슴",
+  "image1_0": "https:\/\/www.musclewiki.com\/media\/uploads\/male-barbell-incline-bench-press-side.gif",
+  "image2_0": "https:\/\/www.musclewiki.com\/media\/uploads\/male-barbell-incline-bench-press-front.gif",
+  "step_0": "1. 벤치를 30도에서 45도 사이에 놓습니다.@2. 바닥에 발을 대고 벤치에 평평하게 눕습니다. 곧은 팔로 바의 랙을 풉니다.@3. 바를 가슴 중앙까지 내립니다.@4. 팔꿈치가 잠길 때까지 바를 천천히 그리고 조절하십시오."
+ },
+ {
+  "id_1": 23,
+  "Column2": "가슴루틴A",
+  "exercise_0": "인클라인 바벨 벤치 프레스",
+  "num_0": "12회~15회",
+  "time": 60,
+  "part": "가슴",
+  "image1_0": "https:\/\/www.musclewiki.com\/media\/uploads\/male-barbell-incline-bench-press-side.gif",
+  "image2_0": "https:\/\/www.musclewiki.com\/media\/uploads\/male-barbell-incline-bench-press-front.gif",
+  "step_0": "1. 벤치를 30도에서 45도 사이에 놓습니다.@2. 바닥에 발을 대고 벤치에 평평하게 눕습니다. 곧은 팔로 바의 랙을 풉니다.@3. 바를 가슴 중앙까지 내립니다.@4. 팔꿈치가 잠길 때까지 바를 천천히 그리고 조절하십시오."
+ },
+ {
+  "id_1": 24,
+  "Column2": "가슴루틴A",
+  "exercise_0": "인클라인 바벨 벤치 프레스",
+  "num_0": "12회~15회",
+  "time": 60,
+  "part": "가슴",
+  "image1_0": "https:\/\/www.musclewiki.com\/media\/uploads\/male-barbell-incline-bench-press-side.gif",
+  "image2_0": "https:\/\/www.musclewiki.com\/media\/uploads\/male-barbell-incline-bench-press-front.gif",
+  "step_0": "1. 벤치를 30도에서 45도 사이에 놓습니다.@2. 바닥에 발을 대고 벤치에 평평하게 눕습니다. 곧은 팔로 바의 랙을 풉니다.@3. 바를 가슴 중앙까지 내립니다.@4. 팔꿈치가 잠길 때까지 바를 천천히 그리고 조절하십시오."
+ },
+ {
+  "id_1": 25,
+  "Column2": "가슴루틴A",
+  "exercise_0": "인클라인 바벨 벤치 프레스",
+  "num_0": "12회~15회",
+  "time": 60,
+  "part": "가슴",
+  "image1_0": "https:\/\/www.musclewiki.com\/media\/uploads\/male-barbell-incline-bench-press-side.gif",
+  "image2_0": "https:\/\/www.musclewiki.com\/media\/uploads\/male-barbell-incline-bench-press-front.gif",
+  "step_0": "1. 벤치를 30도에서 45도 사이에 놓습니다.@2. 바닥에 발을 대고 벤치에 평평하게 눕습니다. 곧은 팔로 바의 랙을 풉니다.@3. 바를 가슴 중앙까지 내립니다.@4. 팔꿈치가 잠길 때까지 바를 천천히 그리고 조절하십시오."
+ },
+ {
+  "id_1": 26,
+  "Column2": "가슴루틴A",
+  "exercise_0": "인클라인 바벨 벤치 프레스",
+  "num_0": "12회~15회",
+  "time": 60,
+  "part": "가슴",
+  "image1_0": "https:\/\/www.musclewiki.com\/media\/uploads\/male-barbell-incline-bench-press-side.gif",
+  "image2_0": "https:\/\/www.musclewiki.com\/media\/uploads\/male-barbell-incline-bench-press-front.gif",
+  "step_0": "1. 벤치를 30도에서 45도 사이에 놓습니다.@2. 바닥에 발을 대고 벤치에 평평하게 눕습니다. 곧은 팔로 바의 랙을 풉니다.@3. 바를 가슴 중앙까지 내립니다.@4. 팔꿈치가 잠길 때까지 바를 천천히 그리고 조절하십시오."
+ },
+ {
+  "id_1": 27,
+  "Column2": "가슴루틴A",
+  "exercise_0": "딥스",
+  "num_0": "12회~15회",
+  "time": 60,
+  "part": "가슴",
+  "image1_0": "https:\/\/www.musclewiki.com\/media\/uploads\/bodyweight-male-dips-side_5HAGnjr.gif",
+  "image2_0": "https:\/\/www.musclewiki.com\/media\/uploads\/bodyweight-male-dips-front_5pJM6Vh.gif",
+  "step_0": "1. 장비 위에 팔을 고정한 상태로 몸을 잡습니다.@2. 무릎은 뒷부분으로 굽혀 몸이 일자가 되게끔 중심을 잡습니다.@3. 팔꿉치가 직각이 될때까지 내려갔다 올라옵니다."
+ },
+ {
+  "id_1": 28,
+  "Column2": "가슴루틴A",
+  "exercise_0": "딥스",
+  "num_0": "12회~15회",
+  "time": 60,
+  "part": "가슴",
+  "image1_0": "https:\/\/www.musclewiki.com\/media\/uploads\/bodyweight-male-dips-side_5HAGnjr.gif",
+  "image2_0": "https:\/\/www.musclewiki.com\/media\/uploads\/bodyweight-male-dips-front_5pJM6Vh.gif",
+  "step_0": "1. 장비 위에 팔을 고정한 상태로 몸을 잡습니다.@2. 무릎은 뒷부분으로 굽혀 몸이 일자가 되게끔 중심을 잡습니다.@3. 팔꿉치가 직각이 될때까지 내려갔다 올라옵니다."
+ },
+ {
+  "id_1": 29,
+  "Column2": "가슴루틴A",
+  "exercise_0": "딥스",
+  "num_0": "12회~15회",
+  "time": 60,
+  "part": "가슴",
+  "image1_0": "https:\/\/www.musclewiki.com\/media\/uploads\/bodyweight-male-dips-side_5HAGnjr.gif",
+  "image2_0": "https:\/\/www.musclewiki.com\/media\/uploads\/bodyweight-male-dips-front_5pJM6Vh.gif",
+  "step_0": "1. 장비 위에 팔을 고정한 상태로 몸을 잡습니다.@2. 무릎은 뒷부분으로 굽혀 몸이 일자가 되게끔 중심을 잡습니다.@3. 팔꿉치가 직각이 될때까지 내려갔다 올라옵니다."
+ },
+ {
+  "id_1": 30,
+  "Column2": "가슴루틴A",
+  "exercise_0": "딥스",
+  "num_0": "12회~15회",
+  "time": 60,
+  "part": "가슴",
+  "image1_0": "https:\/\/www.musclewiki.com\/media\/uploads\/bodyweight-male-dips-side_5HAGnjr.gif",
+  "image2_0": "https:\/\/www.musclewiki.com\/media\/uploads\/bodyweight-male-dips-front_5pJM6Vh.gif",
+  "step_0": "1. 장비 위에 팔을 고정한 상태로 몸을 잡습니다.@2. 무릎은 뒷부분으로 굽혀 몸이 일자가 되게끔 중심을 잡습니다.@3. 팔꿉치가 직각이 될때까지 내려갔다 올라옵니다."
+ },
+ {
+  "id_1": 31,
+  "Column2": "가슴루틴A",
+  "exercise_0": "딥스",
+  "num_0": "12회~15회",
+  "time": 60,
+  "part": "가슴",
+  "image1_0": "https:\/\/www.musclewiki.com\/media\/uploads\/bodyweight-male-dips-side_5HAGnjr.gif",
+  "image2_0": "https:\/\/www.musclewiki.com\/media\/uploads\/bodyweight-male-dips-front_5pJM6Vh.gif",
+  "step_0": "1. 장비 위에 팔을 고정한 상태로 몸을 잡습니다.@2. 무릎은 뒷부분으로 굽혀 몸이 일자가 되게끔 중심을 잡습니다.@3. 팔꿉치가 직각이 될때까지 내려갔다 올라옵니다."
+ },
+ {
+  "id_1": 32,
+  "Column2": "가슴루틴A",
+  "exercise_0": "케이블 펙 플라이",
+  "num_0": "12회~15회",
+  "time": 60,
+  "part": "가슴",
+  "image1_0": "https:\/\/www.musclewiki.com\/media\/uploads\/cable-male-pecfly-side.gif",
+  "image2_0": "https:\/\/www.musclewiki.com\/media\/uploads\/cable-male-pecfly-front.gif",
+  "step_0": "1. 핸들 부착물 세트를 기계 바닥까지 사용하십시오.@2. 양쪽 핸들을 가슴으로 가져오고 케이블 크로스오버의 중앙에 있는지 확인합니다.@3. 몇 걸음 앞으로 걸어갑니다. 그런 다음 무게를 앞으로 누릅니다. 거기에서 팔꿈치는 고정된 위치에 유지하면서 어깨는 수평으로 외전 및 내전되어야 합니다."
+ },
+ {
+  "id_1": 33,
+  "Column2": "가슴루틴A",
+  "exercise_0": "케이블 펙 플라이",
+  "num_0": "12회~15회",
+  "time": 60,
+  "part": "가슴",
+  "image1_0": "https:\/\/www.musclewiki.com\/media\/uploads\/cable-male-pecfly-side.gif",
+  "image2_0": "https:\/\/www.musclewiki.com\/media\/uploads\/cable-male-pecfly-front.gif",
+  "step_0": "1. 핸들 부착물 세트를 기계 바닥까지 사용하십시오.@2. 양쪽 핸들을 가슴으로 가져오고 케이블 크로스오버의 중앙에 있는지 확인합니다.@3. 몇 걸음 앞으로 걸어갑니다. 그런 다음 무게를 앞으로 누릅니다. 거기에서 팔꿈치는 고정된 위치에 유지하면서 어깨는 수평으로 외전 및 내전되어야 합니다."
+ },
+ { 8 
+  "iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiid_ii,  iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii1": 34,
+  "Column2": "가슴루틴A",
+  "exercise_0": "케이블 펙 플라이",
+  "num_0": "12회~15회",
+  "time": 60,
+  "part": "가슴",
+  "image1_0": "https:\/\/www.musclewiki.com\/media\/uploads\/cable-male-pecfly-side.gif",
+  "image2_0": "https:\/\/www.musclewiki.com\/media\/uploads\/cable-male-pecfly-front.gif",
+  "step_0": "1. 핸들 부착물 세트를 기계 바닥까지 사용하십시오.@2. 양쪽 핸들을 가슴으로 가져오고 케이블 크로스오버의 중앙에 있는지 확인합니다.@3. 몇 걸음 앞으로 걸어갑니다. 그런 다음 무게를 앞으로 누릅니다. 거기에서 팔꿈치는 고정된 위치에 유지하면서 어깨는 수평으로 외전 및 내전되어야 합니다."
+ },
+ {
+  "id_1": 35,
+  "Column2": "가슴루틴A",
+  "exercise_0": "케이블 펙 플라이",
+  "num_0": "12회~15회",
+  "time": 60,
+  "part": "가슴",
+  "image1_0": "https:\/\/www.musclewiki.com\/media\/uploads\/cable-male-pecfly-side.gif",
+  "image2_0": "https:\/\/www.musclewiki.com\/media\/uploads\/cable-male-pecfly-front.gif",
+  "step_0": "1. 핸들 부착물 세트를 기계 바닥까지 사용하십시오.@2. 양쪽 핸들을 가슴으로 가져오고 케이블 크로스오버의 중앙에 있는지 확인합니다.@3. 몇 걸음 앞으로 걸어갑니다. 그런 다음 무게를 앞으로 누릅니다. 거기에서 팔꿈치는 고정된 위치에 유지하면서 어깨는 수평으로 외전 및 내전되어야 합니다."
+ },
+ {
+  "id_1": 36,
+  "Column2": "가슴루틴A",
+  "exercise_0": "케이블 펙 플라이",
+  "num_0": "12회~15회",
+  "time": 60,
+  "part": "가슴",
+  "image1_0": "https:\/\/www.musclewiki.com\/media\/uploads\/cable-male-pecfly-side.gif",
+  "image2_0": "https:\/\/www.musclewiki.com\/media\/uploads\/cable-male-pecfly-front.gif",
+  "step_0": "1. 핸들 부착물 세트를 기계 바닥까지 사용하십시오.@2. 양쪽 핸들을 가슴으로 가져오고 케이블 크로스오버의 중앙에 있는지 확인합니다.@3. 몇 걸음 앞으로 걸어갑니다. 그런 다음 무게를 앞으로 누릅니다. 거기에서 팔꿈치는 고정된 위치에 유지하면서 어깨는 수평으로 외전 및 내전되어야 합니다."
+ }
+ 
+ mk/hb yr   `
+
+const obj = JSON.parse(data);
+console.log(obj);
+</script>
+</body>
+</html>
